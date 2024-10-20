@@ -1,0 +1,80 @@
+.allerta-stencil-regular {
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input, label {
+    display:block;
+}
+
+
+.main-container {
+    display: flex;
+    background-color: blue;
+    padding: 5vh;
+    width: 90vw;
+    justify-content: center;
+}
+
+.left-container {
+    background-image: url('leftbackground.jpg');
+    background-size: cover;
+    height: 80vh;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    background-color: orange;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-container{
+    font-size: 4vw;
+    background-color: yellow;
+    opacity: 20%;
+
+}
+
+.anvil-container > img {
+    height:8vw;
+    width:5rem;
+    object-fit: contain;
+}
+
+
+
+.right-container {
+    background-color: white;
+    height: 80vh;
+    width: 67%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:0;
+    gap: 20px;
+    padding: 5vh;
+}
+
+.form-row {
+    display: flex;
+    width:100%;
+    gap: 10px;
+}
+
+.input-label-pair{
+    display:block;
+}
+
+input:invalid {
+    border: 2px solid red;
+    background-color: beige;
+}
+
+
